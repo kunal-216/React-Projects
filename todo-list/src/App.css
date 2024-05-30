@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+}
+
+body{
+    background: linear-gradient(45deg, rgb(135, 135, 237), rgb(227, 26, 227));
+}
+
+header{
+    margin-top: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 800px;
+    min-height: 62vh;
+    margin: 100px auto;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+form > input{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 9px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn{
+    background-color: rgba(153, 220, 232, 0.875);
+    font-size: 19px;
+    color: black;
+    padding: 8px 10px;
+    margin: 10px auto;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.task{
+    width: 93%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.task-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.task-div > p,span{
+    width: 95%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.task > button{
+    background-color: rgb(215, 73, 73);
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;  
+    padding: 20px;
+}
+
+.task > button:hover{
+    cursor: pointer;
+    background-color: rgb(237, 44, 44);
+}
